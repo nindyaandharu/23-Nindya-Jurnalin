@@ -106,7 +106,7 @@
     </v-row>
   </v-container>
 
-  <v-img src="./assets/Rectangle 8.png" class="mt-15" height="510">
+  <v-img src="./assets/Rectangle 8.png" class="mt-15" height="670">
   <v-container>
     <v-card-text class="text-TESTI text-center justify-center white--text">
       TESTIMONIALS
@@ -142,7 +142,7 @@
       </v-list-item>
     </v-card-actions>
     <v-card-text class="text-h5 font-weight-bold">
-      "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well."
+      "finally i found this website, I like to take notes on a mood calendar, and now I don't need to use books anymore."
     </v-card-text>  
       </v-card>
     </v-col>
@@ -165,7 +165,7 @@
         <v-list-item-content>
           <v-list-item-title class="text-h5">Erisha Danurdara</v-list-item-title>
           <v-rating
-          :value="4.5"
+          :value="5.0"
           color="white"
           dense
           half-increments
@@ -176,7 +176,7 @@
       </v-list-item>
     </v-card-actions>
     <v-card-text class="text-h5 font-weight-bold">
-      "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well."
+      "for me, this is a brilliant idea. I am very comfortable and enjoy using JURNALIN. Thank you for made this website"
     </v-card-text>  
     </v-card>
     </v-col>
@@ -199,7 +199,7 @@
         <v-list-item-content>
           <v-list-item-title class="text-h5">Abel Khaizure</v-list-item-title>
           <v-rating
-          :value="4.5"
+          :value="4.0"
           color="white"
           dense
           half-increments
@@ -210,7 +210,7 @@
       </v-list-item>
     </v-card-actions>
     <v-card-text class="text-h5 font-weight-bold">
-      "Turns out semicolon-less style is easier and safer in TS because most gotcha edge cases are type invalid as well."
+      "Sangat baik dan berguna untuk sehari-hari, hanya saja desain terlalu besar. So far so good."
     </v-card-text>  
     </v-card>
     </v-col>
@@ -227,6 +227,23 @@
       color="white"
       large
     ></v-rating>
+    <v-row justify="center">
+      <v-col class="mt-5" cols="9" md="3">
+        <v-text-field
+            label="Write a review"
+            outlined
+            width="200px"
+            height="100px"
+            color="white"
+          ></v-text-field>
+      </v-col>
+    </v-row>
+      <v-btn
+        outlined
+        color="white"
+      >
+      SUBMIT
+    </v-btn>
   </center>
   </v-container>
   </v-img>
@@ -255,8 +272,11 @@
         </v-btn>
       </v-card-text>
 
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      <v-card-text class="text-foot white--text pt-0">
+        We created this website to make it easier for us to organize all the precious moments in life, 
+        So that they are always remembered.
+        And of course we also accept criticism and suggestions which if you take the time to fill it out, 
+        we really appreciate it. Thank you
       </v-card-text>
 
       <v-divider></v-divider>
@@ -317,5 +337,9 @@ export default {
   font-family: 'Asap';
   font-size: 24px !important;
   font-style: italic;
+}
+.text-foot{
+  font-family: 'Asap';
+  font-size: 24px !important;
 }
 </style>
